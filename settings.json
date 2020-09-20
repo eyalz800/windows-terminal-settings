@@ -81,7 +81,7 @@
     // To learn more about color schemes, visit https://aka.ms/terminal-color-schemes
     "schemes": [
         {
-            "background": "#1E2127",
+            "background": "#282c34",
             "black": "#000000",
             "blue": "#61AFEF",
             "brightBlack": "#5C6370",
