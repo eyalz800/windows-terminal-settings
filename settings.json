@@ -22,7 +22,9 @@
         {
             "padding": "0, 0, 0, 0",
             "scrollbarState": "hidden",
-            "colorScheme": "One Dark"
+            "colorScheme": "One Dark",
+            "useAcrylic": true,
+            "acrylicOpacity": 0.5
         },
         "list":
         [
@@ -69,6 +71,7 @@
     // To learn more about color schemes, visit https://aka.ms/terminal-color-schemes
     "schemes": [
         {
+            "name": "One Dark",
             "background": "#282c34",
             "black": "#000000",
             "blue": "#61AFEF",
@@ -83,7 +86,6 @@
             "cyan": "#56B6C2",
             "foreground": "#ABB2BF",
             "green": "#98C379",
-            "name": "One Dark",
             "purple": "#C678DD",
             "red": "#E06C75",
             "white": "#ABB2BF",
