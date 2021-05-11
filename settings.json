@@ -25,7 +25,8 @@
             "colorScheme": "One Dark",
             "startingDirectory": ".",
             "useAcrylic": true,
-            "acrylicOpacity": 0.90
+            "fontFace": "Cascadia Mono PL",
+            "acrylicOpacity": 0.9
         },
         "list":
         [
