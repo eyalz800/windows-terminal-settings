@@ -26,6 +26,7 @@
             "startingDirectory": ".",
             "useAcrylic": true,
             "fontFace": "Cascadia Mono PL",
+            "antialiasingMode": "cleartype",
             "acrylicOpacity": 0.9
         },
         "list":
