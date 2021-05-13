@@ -25,7 +25,7 @@
             "colorScheme": "One Dark",
             "startingDirectory": ".",
             "useAcrylic": true,
-            "fontFace": "Cascadia Mono PL",
+            "fontFace": "Consolas NF",
             "antialiasingMode": "cleartype",
             "acrylicOpacity": 0.9
         },
