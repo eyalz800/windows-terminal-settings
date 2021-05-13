@@ -27,7 +27,8 @@
             "useAcrylic": true,
             "fontFace": "Consolas NF",
             "antialiasingMode": "cleartype",
-            "acrylicOpacity": 0.9
+            "acrylicOpacity": 0.9,
+            "tabColor": "#1e1e1e"
         },
         "list":
         [
