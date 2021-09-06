@@ -5,7 +5,7 @@
 {
     "$schema": "https://aka.ms/terminal-profiles-schema",
 
-    "defaultProfile": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}",
+    "defaultProfile": "{1641cdc2-d478-47a9-a672-645a897fa39d}",
 
     // If enabled, selections are automatically copied to your clipboard.
     "copyOnSelect": false,
@@ -15,6 +15,8 @@
 
     // Disable multine paste warning.
     "multiLinePasteWarning": false,
+
+    "launchMode": "focus",
 
     "profiles":
     {
@@ -33,40 +35,9 @@
         "list":
         [
             {
-                "guid": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}",
-                "name": "Windows PowerShell",
-                "commandline": "powershell.exe",
-                "hidden": false
-            },
-            {
-                "guid": "{0caa0dad-35be-5f56-a8ff-afceeeaa6101}",
-                "name": "Command Prompt",
-                "commandline": "cmd.exe",
-                "hidden": false
-            },
-            {
-                "guid": "{2c4de342-38b7-51cf-b940-2309a097f518}",
-                "hidden": false,
-                "name": "Ubuntu",
-                "source": "Windows.Terminal.Wsl"
-            },
-            {
-                "guid": "{b453ae62-4e3d-5e58-b989-0a998ec441b8}",
-                "hidden": false,
-                "name": "Azure Cloud Shell",
-                "source": "Windows.Terminal.Azure"
-            },
-            {
-                "guid": "{c6eaf9f4-32a7-5fdc-b5cf-066e8a4b1e40}",
-                "hidden": false,
-                "name": "Ubuntu-18.04",
-                "source": "Windows.Terminal.Wsl"
-            },
-            {
-                "guid": "{6f9994f0-4403-5e85-9cce-98e5da3839bb}",
-                "hidden": false,
-                "name": "Ubuntu-16.04",
-                "source": "Windows.Terminal.Wsl"
+                "guid": "{1641cdc2-d478-47a9-a672-645a897fa39d}",
+                "name": "WSL",
+                "commandline": "wsl"
             }
         ]
     },
@@ -116,7 +87,8 @@
         // - "splitMode": "duplicate" makes the new pane use the focused pane's profile.
         // To learn more about panes, visit https://aka.ms/terminal-panes
         { "command": { "action": "splitPane", "split": "auto", "splitMode": "duplicate" }, "keys": "alt+shift+d" },
-        { "command": null, "keys": "f11" }
+        { "command": null, "keys": "f11" },
+        { "command": "toggleFocusMode", "keys": "alt+shift+z" }
     ]
 }
 
