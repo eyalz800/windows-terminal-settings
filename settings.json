@@ -16,7 +16,11 @@
     // Disable multine paste warning.
     "multiLinePasteWarning": false,
 
+    // Launch in focus mode, to exit - Alt+Shift+Z.
     "launchMode": "focus",
+
+    "initialCols": 140,
+    "initialRows": 35,
 
     "profiles":
     {
@@ -28,16 +32,19 @@
             "startingDirectory": ".",
             "useAcrylic": true,
             "fontFace": "Consolas NF",
+            "fontSize": 11,
             "antialiasingMode": "cleartype",
             "acrylicOpacity": 0.9,
-            "tabColor": "#1e1e1e"
+            "tabColor": "#1e1e1e",
+            "cursorShape": "filledBox"
         },
         "list":
         [
             {
                 "guid": "{1641cdc2-d478-47a9-a672-645a897fa39d}",
                 "name": "WSL",
-                "commandline": "wsl"
+                "commandline": "wsl",
+                "startingDirectory" : "%USERPROFILE%"
             }
         ]
     },
@@ -91,4 +98,3 @@
         { "command": "toggleFocusMode", "keys": "alt+shift+z" }
     ]
 }
-
