@@ -22,6 +22,8 @@
     "initialCols": 140,
     "initialRows": 35,
 
+    "theme": "dark",
+
     "profiles":
     {
         "defaults":
