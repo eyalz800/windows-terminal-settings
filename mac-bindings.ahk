@@ -13,6 +13,7 @@ LAlt & w::Send ^w
 LAlt & x::Send ^x
 LAlt & t::Send ^t
 LAlt & f::Send ^f
+LAlt & l::Send ^l
 
 LWin & c::Send ^c
 LWin & v::Send ^v
@@ -24,3 +25,4 @@ LWin & w::Send ^w
 LWin & x::Send ^x
 LWin & t::Send ^t
 LWin & f::Send ^f
+LWin & k::Send ^l
