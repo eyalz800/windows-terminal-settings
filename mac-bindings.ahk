@@ -26,3 +26,8 @@ LWin & x::Send ^x
 LWin & t::Send ^t
 LWin & f::Send ^f
 LWin & k::Send ^l
+
+^Space::
+Sleep 300
+PostMessage, 0x50, 2, 0,, A ; 0x50 is WM_INPUTLANGCHANGEREQUEST
+return
