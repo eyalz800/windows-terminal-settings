@@ -13,3 +13,14 @@ LAlt & w::Send ^w
 LAlt & x::Send ^x
 LAlt & t::Send ^t
 LAlt & f::Send ^f
+
+LWin & c::Send ^c
+LWin & v::Send ^v
+LWin & a::Send ^a
+LWin & n::Send ^n
+LWin & s::Send ^s
+LWin & z::Send ^z
+LWin & w::Send ^w
+LWin & x::Send ^x
+LWin & t::Send ^t
+LWin & f::Send ^f
