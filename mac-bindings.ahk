@@ -12,3 +12,4 @@ LAlt & z::Send ^z
 LAlt & w::Send ^w
 LAlt & x::Send ^x
 LAlt & t::Send ^t
+LAlt & f::Send ^f
