@@ -14,6 +14,7 @@ LAlt & x::Send ^x
 LAlt & t::Send ^t
 LAlt & f::Send ^f
 LAlt & l::Send ^l
+LAlt & k::Send ^k
 
 LWin & c::Send ^c
 LWin & v::Send ^v
