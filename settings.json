@@ -16,8 +16,8 @@
     // Disable multine paste warning.
     "multiLinePasteWarning": false,
 
-    // Launch in focus mode, to exit - Alt+Shift+Z.
-    "launchMode": "focus",
+    // Launch in default mode, to enter focus - Alt+Shift+Z.
+    "launchMode": "default",
 
     "initialCols": 140,
     "initialRows": 35,
