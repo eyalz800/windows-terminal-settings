@@ -28,6 +28,14 @@ LWin & t::Send ^t
 LWin & f::Send ^f
 LWin & k::Send ^l
 
-^Space::
+LCtrl & Space::
 PostMessage, 0x50, 2, 0,, A ; 0x50 is WM_INPUTLANGCHANGEREQUEST
 return
+
+#+4::
+Send {LWin down}{Shift down}s
+Send {LWin up}{Shift up}
+
+!+4::
+Send {LWin down}{Shift down}s
+Send {LWin up}{Shift up}
