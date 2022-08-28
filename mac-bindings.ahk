@@ -9,6 +9,7 @@ LAlt & a::Send ^a
 LAlt & n::Send ^n
 LAlt & s::Send ^s
 LAlt & z::Send ^z
+LAlt & y::Send ^y
 LAlt & w::Send ^w
 LAlt & x::Send ^x
 LAlt & t::Send ^t
@@ -22,6 +23,7 @@ LWin & a::Send ^a
 LWin & n::Send ^n
 LWin & s::Send ^s
 LWin & z::Send ^z
+LWin & y::Send ^y
 LWin & w::Send ^w
 LWin & x::Send ^x
 LWin & t::Send ^t
