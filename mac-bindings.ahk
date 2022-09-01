@@ -16,6 +16,8 @@ LAlt & t::Send ^t
 LAlt & f::Send ^f
 LAlt & l::Send ^l
 LAlt & k::Send ^k
+LAlt & b::Send ^b
+LAlt & i::Send ^i
 
 LWin & c::Send ^c
 LWin & v::Send ^v
@@ -29,6 +31,8 @@ LWin & x::Send ^x
 LWin & t::Send ^t
 LWin & f::Send ^f
 LWin & k::Send ^l
+LWin & b::Send ^b
+LWin & i::Send ^i
 
 LCtrl & Space::
 PostMessage, 0x50, 2, 0,, A ; 0x50 is WM_INPUTLANGCHANGEREQUEST
