@@ -34,7 +34,7 @@
             "startingDirectory": ".",
             "useAcrylic": true,
             "fontFace": "Consolas NF",
-            "fontSize": 11,
+            "fontSize": 15.0,
             "antialiasingMode": "cleartype",
             "acrylicOpacity": 0.9,
             "tabColor": "#1e1e1e",
