@@ -33,7 +33,7 @@
             "colorScheme": "TokyoNight",
             "startingDirectory": ".",
             "useAcrylic": true,
-            "fontFace": "MesloLGM Nerd Font Mono",
+            "fontFace": "MesloLGS Nerd Font Mono",
             "fontSize": 11.0,
             "antialiasingMode": "cleartype",
             "acrylicOpacity": 0.9,
